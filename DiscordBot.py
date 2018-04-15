@@ -83,5 +83,8 @@ async def on_message(message):
         await client.send_message(message.channel, 'Commands: //DabDon, //ElecDon, //DisbeDon, //RubioDon, //Baby, //JoJo')
         print(">Help Given")
     
-client.run("NDI0MTU3NzY2OTA3ODU0ODQ4.DY06lw.I4KKHrQjrHBQJY8l9xBWZCrXADc")
-
+#Forgive me Discord, for i have sinned
+tokenFile = open("Private_Token.txt" "r")
+tokenString = tokenFile.read()
+client.run(tokenString)
+# :(((((((
